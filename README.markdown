@@ -27,36 +27,6 @@ To run this project, ensure you have the following installed:
 
 ---
 
-## Project Structure
-```
-pakistan-wdi-analysis/
-│
-├── data/
-│   ├── health/
-│   │   └── 4f2f6b82-aa5d-429f-80d4-564ae648423d_Data.csv
-│   ├── education/
-│   ├── poverty/
-│   ├── finance/
-│   ├── social_protection/
-│   └── labor/
-│
-├── scripts/
-│   ├── clean_data.py               # Script for data cleaning
-│   ├── compute_stats.py            # Script for statistical feature extraction
-│   └── visualize.py                # Script for visualizations and outlier detection
-│
-├── outputs/
-│   ├── health_stats.csv            # Statistical results for health
-│   ├── health_Mean_boxplot.png     # Box plot for mean (health)
-│   ├── uhc_trend.png               # Time-series plot for UHC index
-│   └── ...                         # Other category outputs
-│
-├── README.md                       # Project documentation
-└── requirements.txt                # Python dependencies
-```
-
----
-
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
