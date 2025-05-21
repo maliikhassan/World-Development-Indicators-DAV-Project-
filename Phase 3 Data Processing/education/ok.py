@@ -3,14 +3,14 @@ import numpy as np
 import os
 
 # Step 1: Load the data
-file_path = 'D:\\DAV_LABs\\DAV Project\\PreProcessing_M_M_M_V_C_C\\education\\f8b9ad6d-dd87-42c9-8e67-25e3a6d19309_Data.csv'
+file_path = 'D:\\DAV_LABs\\DAV Project\\Phase 3 Data Processing\\education\\f8b9ad6d-dd87-42c9-8e67-25e3a6d19309_Data.csv'
 try:
     df = pd.read_csv(file_path)
     print("Data loaded successfully.")
     print(f"Dataset shape (before cleaning): {df.shape}")
 except FileNotFoundError:
     print(f"File not found: {file_path}")
-    print("Files in directory:", os.listdir('D:\\DAV_LABs\\DAV Project\\PreProcessing_M_M_M_V_C_C\\education\\'))
+    print("Files in directory:", os.listdir('D:\\DAV_LABs\\DAV Project\\Phase 3 Data Processing\\education\\'))
     raise
 
 # Step 2: Clean the dataset (remove empty rows and metadata)
