@@ -5,6 +5,13 @@ This project conducts a comprehensive **data analysis and visualization** of **W
 
 The goal is to provide actionable insights for researchers, policymakers, and stakeholders by summarizing Pakistan's socio-economic trends and enabling cross-category comparisons.
 
+
+## 🌐 Live Demo
+
+Check out the live version of the dashboard here:  
+👉 [https://684342651753821fc6288925--frabjous-sprite-ae5e38.netlify.app/]
+
+
 ---
 
 ## Features
